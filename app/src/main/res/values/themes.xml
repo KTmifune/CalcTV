@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.CalcTV" parent="@style/Theme.Leanback" />
+</resources>
