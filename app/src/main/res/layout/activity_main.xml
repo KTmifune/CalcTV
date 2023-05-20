@@ -15,7 +15,9 @@
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:textSize="56sp"
-        android:gravity="right"/>
+        android:gravity="right"
+        android:textColor="#ffffffff"
+        android:background="@drawable/print_text_style"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,16 +32,20 @@
             android:layout_weight="1"
             android:text="AC"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
-            android:id="@+id/btn_space1"
+            android:id="@+id/btn_double"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:text=""
+            android:text="*"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_rem"
@@ -48,7 +54,9 @@
             android:layout_weight="1"
             android:text="%"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_div"
@@ -57,7 +65,9 @@
             android:layout_weight="1"
             android:text="÷"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
     </LinearLayout>
 
     <LinearLayout
@@ -73,7 +83,9 @@
             android:layout_weight="1"
             android:text="7"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_8"
@@ -82,7 +94,9 @@
             android:layout_weight="1"
             android:text="8"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_9"
@@ -91,16 +105,20 @@
             android:layout_weight="1"
             android:text="9"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
-            android:id="@+id/btn_x"
+            android:id="@+id/btn_multi"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_weight="1"
             android:text="X"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
     </LinearLayout>
 
@@ -117,7 +135,9 @@
             android:layout_weight="1"
             android:text="4"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_5"
@@ -126,7 +146,9 @@
             android:layout_weight="1"
             android:text="5"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_6"
@@ -135,7 +157,9 @@
             android:layout_weight="1"
             android:text="6"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_minus"
@@ -144,7 +168,9 @@
             android:layout_weight="1"
             android:text="-"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
     </LinearLayout>
 
@@ -161,7 +187,9 @@
             android:layout_weight="1"
             android:text="1"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_2"
@@ -170,7 +198,9 @@
             android:layout_weight="1"
             android:text="2"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_3"
@@ -179,7 +209,9 @@
             android:layout_weight="1"
             android:text="3"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_puls"
@@ -188,7 +220,9 @@
             android:layout_weight="1"
             android:text="+"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
     </LinearLayout>
 
@@ -205,7 +239,9 @@
             android:layout_weight="1"
             android:text="0"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_space2"
@@ -214,7 +250,9 @@
             android:layout_weight="1"
             android:text=""
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_delete"
@@ -223,7 +261,9 @@
             android:layout_weight="1"
             android:text="Delete"
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
 
         <Button
             android:id="@+id/btn_equal"
@@ -232,7 +272,9 @@
             android:layout_weight="1"
             android:text="="
             android:textSize="40sp"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/default_button"
+            android:textColor="@drawable/default_button_text"/>
     </LinearLayout>
 
 </LinearLayout>

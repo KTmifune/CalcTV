@@ -6,7 +6,6 @@
     <item android:drawable="@drawable/default_button_focus" android:state_active="true" />
 
     <item android:drawable="@drawable/default_button_normal">
-    <color android:color="#ff8888"/>
     </item>
 
 
