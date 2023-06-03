@@ -72,8 +72,6 @@ class MainActivity : FragmentActivity() {
         btnDouble.setOnClickListener(clickDoubleListener)
         btnDouble.isEnabled = false
 
-        btnDouble.setOnClickListener(view -> )
-
     }
 
     private fun setEnableOperatorButton(isEnable: Boolean) {
